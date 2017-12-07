@@ -1,0 +1,219 @@
+body{
+margin:0;
+font-family: gabriola;
+font-size: 14pt;
+}
+h1{
+text-align: center;
+color:white;
+margin:0;
+padding-top:10px;
+padding-bottom: 10px;
+font-family: gabriola;
+font-size: 30pt;
+}
+h2{
+text-align: left;
+color:white;
+margin:0;
+padding-top:10px;
+padding-bottom: 8px;
+font-family: gabriola;
+font-size: 28pt;
+}
+h3{
+text-align: left;
+color: MidnightBlue;
+margin:0;
+font-family: gabriola;
+font-size: 14pt;
+}
+p{
+color: MidnightBlue;
+font-size: 18pt;
+font-family: gabriola;
+text-align: justify;
+line-height: 1;
+}
+.fundo{
+background-image: linear-gradient( to right, royalblue, powderblue, lavender );
+color: white;
+padding-top: 4px;
+padding-bottom: 4px;
+font-family: gabriola;
+
+}
+li img{
+width: 80%;
+height: 200px;
+}
+
+#areaCentral{
+width: 900px;
+margin: 0auto;
+font-family: gabriola;
+}
+ul{
+margin: 0;
+padding: 0;
+list-style: none;
+width: 150px;
+float: left;
+font-family: gabriola;
+font-size: 16pt;
+}
+ul li{
+position: relative;
+}
+li ul {
+	position: absolute;
+	left: 149px;
+	top: 0;
+	display: none;
+	font-family: gabriola;
+    font-size: 16pt;
+	
+	}
+ul li a {
+	display: block;
+	text-decoration: none;
+	color:#00008B;
+	background: #fff;
+	padding: 5px;
+	border: 1px solid #ccc;
+	font-family: gabriola;
+    font-size: 16pt;
+}
+li:hover ul { display: block; }
+ul li a:hover{
+	text-decoration:underline;
+	font-weight: bold;
+	background: #ccc; }
+#name{
+	color: #800080;
+	margin:0;
+	font-family: gabriola;
+	font-size: 20pt;
+}
+#disc{
+	color: #800080;
+	margin:0;
+	font-family: gabriola;
+	font-size: 18pt;
+	text-align: left;
+}
+img{
+	float: center;
+	width: 425px;
+	height: 250px;
+}
+#image1{
+	height: 385px;
+	width: 640px;
+	float: center;
+}
+#image2{
+	height: 224px;
+	width: 398px;
+	float: center;
+	margin-left: 100px;
+}
+#image3{
+	float: center;
+	width: 600px;
+	height: 161px;
+	margin-left: 100px;
+}
+#image4{
+	width: 976px;
+	height: 307px;
+	float: center;
+	margin-left: 150px;
+}
+#image5{
+	width: 1211px;
+	height:619px;
+	float: center;
+	margin-left: 150px;
+}
+#imgIF{
+	width: 274px;
+	height: 106px;
+	float: right;
+	margin-top: 60px;
+}
+#imgcc{
+	width: 280px;
+	height: 280px;
+	margin-top: -30px;
+	float: right;
+}
+#content {
+	background-color:#6688ff;
+	position:absolute;
+	width:100px;
+	height:100px;
+	padding:3px;
+	margin-top:5px;
+	left: 100px;
+}
+#cop{
+	text-align: center;
+	color: black;
+	margin:0;
+	font-family: arial;
+	font-size: 10pt;
+}
+#cop1{
+	margin-left: 220px;
+	color: black;
+	font-family: arial;
+	font-size: 10pt;
+}
+#cop2{
+	margin-left: 200px;
+	margin-top: -40px;
+	color: black;
+	font-family: arial;
+	font-size: 10pt;
+}
+#cop3{
+	margin-left: 220px;
+	color: black;
+	font-family: arial;
+	font-size: 10pt;
+}	
+
+#msg{
+	text-align: center;
+	color: MidnightBlue;
+	margin:0;
+	font-family: gabriola;
+	font-size: 20pt;
+}
+#contato{
+	margin-left: 40px;
+}
+#table{
+	margin-left: 500px;
+	text-align: center;
+	text-align: center;
+	color: MidnightBlue;
+	font-family: gabriola;
+	font-size: 20pt;
+}
+#boxEsconder{
+	list-style: none;
+}
+#emoji{
+	float: center;
+	width: 400px;
+	height: 107px;
+	margin-left: 100px;
+}	
+#btnEnviar{
+	margin-left: 100px;
+}
+#btnEsconder{
+	margin-left: 100px;
+}
